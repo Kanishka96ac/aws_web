@@ -14,4 +14,4 @@ phases:
   post_build:
     commands:
       - echo "Updating files in the S3 bucket..."
-      - aws s3 sync dist/aws_web/ s3://aws-project-cca --delete
+      - aws s3 sync dist/aws-project/ s3://aws-project-cca --delete
